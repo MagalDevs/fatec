@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+
+body{
+    color: #ffffff;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+header{
+    background-color: rgb(128, 128, 128);
+    color: #ffffff;
+    text-align: center;
+    padding: 3%;
+}
+main{
+    text-align: center;
+}
+#dados{
+    text-align: left;
+    width: 50%;
+}
+#img{
+    text-align: center;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 0.550rem;
+    height: 12.5rem;
+    border-radius: 1rem;
+}
+#dado-foto{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    width: 90%;
+}
+img{
+    margin: 0px;
+    position: relative;
+    height: 12.5rem;
+    width: 12.326rem;
+    border-radius: 0.5rem;
+}
+h1{
+    margin: 0px;
+}
+h2{
+    color: orange;
+}
+h3{
+    color: yellow;
+}
+p{
+    margin-bottom: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: yellow;
+}
+a::after{
+    content: " 🔗";
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
