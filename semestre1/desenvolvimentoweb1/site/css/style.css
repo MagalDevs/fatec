@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: #191970;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+#logo{
+    font-family: "Madimi One", sans-serif;
+    padding-top: 20px;
+    font-size: 3vw;
+    margin-bottom: 1.2rem;
+}
+#menu{
+    width: 100%;
+    font-family: "Roboto";
+}
+#menu, #content{
+    font-family: "Roboto";
+}
+#menu li{
+    list-style-type: none;
+    display: inline;
+    padding: 0.5rem;
+    margin: 0.188rem;
+    cursor: pointer;
+    border-radius: 0.9rem;
+}
+#menu li:hover{
+    background-color: rgba(42, 42, 180, 0.63);
+}
+#content{
+    
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+}
+#content img{
+    width: 70%;
+    margin-top: 7.5rem;
+    margin-bottom: 3rem;
+}
+#content h2{
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+#content p{
+    text-indent: 2rem;
+    margin-bottom: 0.5rem;
+}
+#content p:first-child{
+    text-align: center;
+}
+#footer{
+    background-color: #191970;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+#footer p{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
