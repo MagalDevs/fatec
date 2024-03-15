@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'media';
+    src: url(fonte/Social_Shapes.ttf) format(truetype);
+}
 
 body{
     color: #ffffff;
@@ -70,4 +74,14 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#media::before{
+    font-family: media;
+    font-size: 1.1rem;
+    content: 'k ';
+}
+#media2::before{
+    font-family: media;
+    font-size: 1.1rem;
+    content: 'Y ';
 }
