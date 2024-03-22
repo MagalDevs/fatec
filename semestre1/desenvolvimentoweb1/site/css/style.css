@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#conteiner{
+    position: relative;
+    min-height: 100vh;
+}
+#header{
+    background-color: #191970;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+#logo{
+    font-family: "Madimi One", sans-serif;
+    padding-top: 20px;
+    margin-bottom: 1.2rem;
+}
+#menu{
+    width: 100%;
+    font-family: "Roboto";
+}
+#menu, #content{
+    font-family: "Roboto";
+}
+#menu li{
+    list-style-type: none;
+    display: inline;
+    padding: 0.5rem;
+    margin: 0.188rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+#menu li a{
+    color: inherit;
+    text-decoration: none;
+}
+#menu li:hover{
+    background-color: rgba(42, 42, 180, 0.63);
+}
+#menu li:active{
+    text-decoration: underline;
+}
+#content{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    padding-bottom: 60px;
+}
+#content img{
+    width: 60%;
+    margin-top: 7.5rem;
+}
+#content h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-top: 20px;
+}
+#content p{
+    line-height: 20px;
+    padding-top: 10px;
+    text-indent: 2rem;
+    margin-bottom: 0.5rem;
+}
+#content p:first-child, #content h2{
+    text-align: center;
+}
+#footer{
+    background-color: #191970;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#footer p{
+    padding: 1.25rem 0;
+}
+table{
+    margin: auto;
+    margin-bottom: 1rem;
+}
