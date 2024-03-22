@@ -16,8 +16,14 @@ header{
     color: #ffffff;
     text-align: center;
     padding: 3%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 main{
+    margin-top: 8rem;
     text-align: center;
 }
 #dados{
