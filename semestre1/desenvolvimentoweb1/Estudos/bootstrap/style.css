@@ -3,6 +3,9 @@
 section {
     padding: 60px 0;
 }
+*{
+    scroll-behavior: smooth;
+}
 section .section-title {
     text-align: center;
     color: #007b5e;
